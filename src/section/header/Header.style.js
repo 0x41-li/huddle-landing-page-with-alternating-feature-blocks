@@ -48,6 +48,12 @@ export const Button = styled.button`
 
   color: #00252e;
 
+  transition: color 0.15s;
+
+  &:hover {
+    color: #808e9a;
+  }
+
   @media (min-width: 992px) {
     width: 200px;
     height: 48px;
