@@ -5,12 +5,14 @@ import Header from "./section/header/Header";
 
 // scss
 import "./scss/utilities.scss";
+import Hero from "./section/hero/Hero";
 
 const App = () => {
   return (
     <>
       <GlobalStyles />
       <Header />
+      <Hero />
     </>
   );
 };
