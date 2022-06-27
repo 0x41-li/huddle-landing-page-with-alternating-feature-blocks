@@ -22,7 +22,7 @@ export const BackgroundDiv = styled.div`
   }
 
   @media screen and (min-width: 992px) {
-    background: url(${backgroundDesktop}) no-repeat top left;
+    background: url(${backgroundDesktop}) no-repeat top left / cover;
     height: 641px;
   }
 

@@ -5,24 +5,33 @@ export const Section = styled.section`
 
   padding: 0px 35px 0px 36px;
 
+  height: 593px;
+
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 20px;
     padding: 0;
+    height: 316px;
   }
 
   @media screen and (min-width: 992px) {
     gap: 60px;
 
+    height: 474px;
+
     margin-top: 71px;
 
-    align-items: center;
     justify-content: space-between;
   }
 
   @media screen and (min-width: 1440px) {
     gap: 0px;
+
+    height: 574px;
+
     padding: 0px 10px 0px 0px;
+
+    align-items: center;
   }
 `;
 
