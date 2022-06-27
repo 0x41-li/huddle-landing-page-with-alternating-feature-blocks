@@ -6,13 +6,20 @@ import Header from "./section/header/Header";
 // scss
 import "./scss/utilities.scss";
 import Hero from "./section/hero/Hero";
+import BodyBackground from "./section/body-background/BodyBackground";
 
 const App = () => {
   return (
     <>
       <GlobalStyles />
+
+      <BodyBackground />
+
       <Header />
-      <Hero />
+
+      <main>
+        <Hero />
+      </main>
     </>
   );
 };

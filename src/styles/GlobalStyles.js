@@ -1,9 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-// images
-import backgroundMobile from "../assets/images/background-mobile.png";
-import backgroundDesktop from "../assets/images/background-desktop.png";
-
 export const GlobalStyles = createGlobalStyle`
 
   *, *::after, *::before, html, body {
@@ -26,11 +22,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: url(${backgroundMobile}) no-repeat top left / cover;
+    padding-bottom: 400px;
 
-    @media screen and (min-width: 992px) {
-      background: url(${backgroundDesktop}) no-repeat top left;
-    }
   }
 
 `;
