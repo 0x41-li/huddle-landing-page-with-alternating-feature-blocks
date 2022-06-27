@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
 export const HeaderSec = styled.header`
-  height: 24px;
+  height: 48px;
   padding: 0 16px;
 
-  margin-top: 24px;
+  padding-top: 24px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @media screen and (min-width: 576px) {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   @media (min-width: 992px) {
-    margin-top: 48px;
-    height: 48px;
+    padding-top: 48px;
+    height: 96px;
   }
 `;
 

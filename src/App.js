@@ -7,6 +7,7 @@ import Header from "./section/header/Header";
 import "./scss/utilities.scss";
 import Hero from "./section/hero/Hero";
 import BodyBackground from "./section/body-background/BodyBackground";
+import FirstSection from "./section/first-section/FirstSection";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 
       <main>
         <Hero />
+        <FirstSection />
       </main>
     </>
   );
