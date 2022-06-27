@@ -5,7 +5,6 @@ export const Section = styled.section`
 
   padding: 0px 35px 0px 36px;
 
-
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 20px;
