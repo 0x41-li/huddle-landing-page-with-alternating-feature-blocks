@@ -27,6 +27,6 @@ export const BackgroundDiv = styled.div`
   }
 
   @media screen and (min-width: 1440px) {
-    height: 741px;
+    height: 721px;
   }
 `;
