@@ -27,11 +27,11 @@ export const Section = styled.section`
   @media screen and (min-width: 1440px) {
     gap: 0px;
 
-    height: 574px;
+    height: 554px;
 
     padding: 0px 10px 0px 0px;
 
-    align-items: center;
+    align-items: start;
   }
 `;
 
@@ -41,6 +41,7 @@ export const TextWrapper = styled.div`
   }
   @media screen and (min-width: 1440px) {
     flex: 0 0 530px;
+    margin-top: 86px;
   }
 `;
 
