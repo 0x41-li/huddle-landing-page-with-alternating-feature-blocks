@@ -12,6 +12,14 @@ export const Section = styled.section`
 export const Box = styled.div`
   padding: 56px 39px 0px 40px;
 
+  &:nth-child(2) {
+    padding-top: 65px;
+  }
+
+  &:nth-child(3) {
+    padding-top: 60px;
+  }
+
   width: 335px;
   height: 488px;
 
