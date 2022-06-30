@@ -9,6 +9,7 @@ import Hero from "./section/hero/Hero";
 import BodyBackground from "./section/body-background/BodyBackground";
 import FirstSection from "./section/first-section/FirstSection";
 import SecondSection from "./section/second-section/SecondSection";
+import Footer from "./section/footer/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,8 @@ const App = () => {
         <FirstSection />
         <SecondSection />
       </main>
+
+      <Footer />
     </>
   );
 };
