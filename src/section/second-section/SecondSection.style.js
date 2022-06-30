@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  position: relative;
+  z-index: 991;
+
   height: 229px;
 
   overflow: visible;
 
-  padding: 0px 11px 0px 12px;
+  padding: 1px 11px 0px 12px;
 
   @media screen and (min-width: 576px) {
     padding: 0;
@@ -20,7 +23,7 @@ export const SectionBox = styled.div`
   max-width: 500px;
 
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 119px;
 
   padding: 41px 12px;
 
@@ -31,7 +34,7 @@ export const SectionBox = styled.div`
   @media screen and (min-width: 992px) {
     max-width: 800px;
     padding: 56px 126px 52px 130px;
-    margin-top: 160px;
+    margin-top: 159px;
   }
 `;
 
