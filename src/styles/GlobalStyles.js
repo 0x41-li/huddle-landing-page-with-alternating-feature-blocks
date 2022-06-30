@@ -21,9 +21,5 @@ export const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
 
-  body {
-    padding-bottom: 400px;
-
-  }
 
 `;
