@@ -8,6 +8,7 @@ import "./scss/utilities.scss";
 import Hero from "./section/hero/Hero";
 import BodyBackground from "./section/body-background/BodyBackground";
 import FirstSection from "./section/first-section/FirstSection";
+import SecondSection from "./section/second-section/SecondSection";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <main>
         <Hero />
         <FirstSection />
+        <SecondSection />
       </main>
     </>
   );
