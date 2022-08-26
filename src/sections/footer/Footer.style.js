@@ -15,13 +15,39 @@ export const FooterEl = styled.footer`
   background: #00252e;
 
   padding: 139px 21px 46px 16px;
+
+  @media screen and (min-width: 992px) {
+    padding: 144px 21px 64px 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 144px 78px 64px 120px;
+  }
+`;
+
+export const FooterContainer = styled.div.attrs({
+  className: "container",
+})`
   @media screen and (min-width: 992px) {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1440px) {
+    justify-content: flex-start;
   }
 `;
 
 // logo
+export const LogoWrapper = styled.div`
+  @media screen and (min-width: 992px) {
+    flex: 0 0 100%;
+    margin-bottom: 32px;
+  }
+`;
 export const Logo = styled.img`
+  display: block;
   width: 167px;
   height: 26px;
 `;
@@ -40,6 +66,21 @@ export const CompanyInfoBox = styled.div`
   &:nth-child(2) {
     margin-top: 24px;
   }
+
+  @media screen and (min-width: 992px) {
+    margin-top: 0;
+
+    &:nth-child(3) {
+      margin-top: 24px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    &:nth-child(2),
+    &:nth-child(3) {
+      margin-top: 16px;
+    }
+  }
 `;
 
 export const InfoBoxIconWrapper = styled.div`
@@ -54,6 +95,8 @@ export const InfoBoxPara = styled.p.attrs({
   line-height: 24px;
 
   color: #ffffff;
+
+  max-width: 375px;
 `;
 
 // location Icon
@@ -98,6 +141,26 @@ export const FooterMenusWrapper = styled.div`
   &:nth-child(4) {
     margin-top: 16px;
   }
+
+  @media screen and (min-width: 992px) {
+    margin-top: 0;
+
+    &:nth-child(4) {
+      margin-top: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    gap: 12px;
+
+    &:nth-child(3) {
+      margin-left: 110px;
+    }
+
+    &:nth-child(4) {
+      margin-left: 143px;
+    }
+  }
 `;
 
 export const FirstMenuAnchor = styled.a.attrs({
@@ -112,6 +175,14 @@ export const FirstMenuAnchor = styled.a.attrs({
 // social media and copyright
 export const SocialMediaAndCopyrightWrapper = styled.div`
   margin-top: 24px;
+
+  @media screen and (min-width: 992px) {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-left: 175px;
+  }
 `;
 
 export const SocialMediaWrapper = styled.div`
@@ -119,6 +190,10 @@ export const SocialMediaWrapper = styled.div`
   justify-content: center;
 
   gap: 12px;
+
+  @media screen and (min-width: 992px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const SocialMediaAnchor = styled.a`
@@ -160,4 +235,9 @@ export const CopyrightPara = styled.p.attrs({
   margin-top: 24px;
 
   text-align: center;
+
+  @media screen and (min-width: 992px) {
+    text-align: left;
+    margin-top: 107px;
+  }
 `;

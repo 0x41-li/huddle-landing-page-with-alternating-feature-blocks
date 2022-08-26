@@ -17,6 +17,8 @@ import {
   InstagramIcon,
   SocialMediaAndCopyrightWrapper,
   CopyrightPara,
+  FooterContainer,
+  LogoWrapper,
 } from "./Footer.style";
 
 // images
@@ -25,8 +27,10 @@ import LogoImage from "../../assets/images/footer-logo.png";
 const Footer = () => {
   return (
     <FooterEl>
-      <div className="container">
-        <Logo src={LogoImage} />
+      <FooterContainer>
+        <LogoWrapper>
+          <Logo src={LogoImage} />
+        </LogoWrapper>
         <CompanyInfo>
           <CompanyInfoBox>
             <InfoBoxIconWrapper>
@@ -76,7 +80,7 @@ const Footer = () => {
             © Copyright 2018 Huddle. All rights reserved.
           </CopyrightPara>
         </SocialMediaAndCopyrightWrapper>
-      </div>
+      </FooterContainer>
     </FooterEl>
   );
 };
