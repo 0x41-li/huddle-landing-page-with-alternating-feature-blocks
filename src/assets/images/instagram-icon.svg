@@ -4,7 +4,7 @@
     <path fill="url(#insta__Object__b)" d="M.693.206h14.694v14.588H.693z" />
   </mask>
   <g mask="url(#insta__Object__c)">
-    <path fill="#fff" d="M.693.206h14.694v14.588H.693z" />
+    <path id="letterIcon" d="M.693.206h14.694v14.588H.693z" />
   </g>
   <defs>
     <pattern id="insta__Object__a" patternContentUnits="objectBoundingBox" width="1" height="1">

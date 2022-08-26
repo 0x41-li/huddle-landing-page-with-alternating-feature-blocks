@@ -1,15 +1,15 @@
 import { GlobalStyles } from "./styles/GlobalStyles";
 
 // sections
-import Header from "./section/header/Header";
+import Header from "./sections/header/Header";
 
 // scss
 import "./scss/utilities.scss";
-import Hero from "./section/hero/Hero";
-import BodyBackground from "./section/body-background/BodyBackground";
-import FirstSection from "./section/first-section/FirstSection";
-import SecondSection from "./section/second-section/SecondSection";
-import Footer from "./section/footer/Footer";
+import Hero from "./sections/hero/Hero";
+import BodyBackground from "./sections/body-background/BodyBackground";
+import FirstSection from "./sections/first-section/FirstSection";
+import SecondSection from "./sections/second-section/SecondSection";
+import Footer from "./sections/footer/Footer";
 
 const App = () => {
   return (

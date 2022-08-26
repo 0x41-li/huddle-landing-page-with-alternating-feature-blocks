@@ -4,7 +4,7 @@
     <path fill="url(#fb__Object__b)" d="M.135.087H7.16v14.725H.135z" />
   </mask>
   <g mask="url(#fb__Object__c)">
-    <path fill="#fff" d="M.135.087H7.16v14.725H.135z" />
+    <path id="letterIcon" d="M.135.087H7.16v14.725H.135z" />
   </g>
   <defs>
     <pattern id="fb__Object__a" patternContentUnits="objectBoundingBox" width="1" height="1">

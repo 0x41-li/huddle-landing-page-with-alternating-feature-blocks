@@ -4,7 +4,7 @@
     <path fill="url(#twitter__Object__b)" d="M.178.425h20.296v20.15H.178z" />
   </mask>
   <g mask="url(#twitter__Object__c)">
-    <path fill="#fff" d="M.178.425h20.296v20.15H.178z" />
+    <path id="letterIcon" d="M.178.425h20.296v20.15H.178z" />
   </g>
   <defs>
     <pattern id="twitter__Object__a" patternContentUnits="objectBoundingBox" width="1" height="1">

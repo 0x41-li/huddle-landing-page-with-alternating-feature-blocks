@@ -2,7 +2,7 @@ import {
   CompanyInfo,
   CompanyInfoBox,
   EmailIcon,
-  FirstMenuAnchor,
+  MenuAnchor,
   FooterMenusWrapper,
   FooterEl,
   InfoBoxIconWrapper,
@@ -55,14 +55,14 @@ const Footer = () => {
           </CompanyInfoBox>
         </CompanyInfo>
         <FooterMenusWrapper>
-          <FirstMenuAnchor href="#">About Us</FirstMenuAnchor>
-          <FirstMenuAnchor href="#">What We Do</FirstMenuAnchor>
-          <FirstMenuAnchor href="#">FAQ</FirstMenuAnchor>
+          <MenuAnchor href="#">About Us</MenuAnchor>
+          <MenuAnchor href="#">What We Do</MenuAnchor>
+          <MenuAnchor href="#">FAQ</MenuAnchor>
         </FooterMenusWrapper>
         <FooterMenusWrapper>
-          <FirstMenuAnchor href="#">Career</FirstMenuAnchor>
-          <FirstMenuAnchor href="#">Blog</FirstMenuAnchor>
-          <FirstMenuAnchor href="#">Contact Us</FirstMenuAnchor>
+          <MenuAnchor href="#">Career</MenuAnchor>
+          <MenuAnchor href="#">Blog</MenuAnchor>
+          <MenuAnchor href="#">Contact Us</MenuAnchor>
         </FooterMenusWrapper>
         <SocialMediaAndCopyrightWrapper>
           <SocialMediaWrapper>

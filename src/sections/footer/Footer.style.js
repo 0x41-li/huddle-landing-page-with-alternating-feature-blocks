@@ -163,13 +163,17 @@ export const FooterMenusWrapper = styled.div`
   }
 `;
 
-export const FirstMenuAnchor = styled.a.attrs({
+export const MenuAnchor = styled.a.attrs({
   className: "open-sans-regular",
 })`
   font-size: 14px;
   line-height: 27px;
 
   color: #ffffff;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 // social media and copyright
@@ -206,7 +210,22 @@ export const SocialMediaAnchor = styled.a`
 
   border-radius: 50%;
 
-  border: 0.918357px solid #dfe4f0;
+  border: 1px solid #dfe4f0;
+
+  transition: border 0.2s;
+
+  & #letterIcon {
+    fill: #fff;
+    transition: fill 0.2s;
+  }
+
+  &:hover {
+    border: 1px solid #ff52c1;
+  }
+
+  &:hover #letterIcon {
+    fill: #ff52c1;
+  }
 `;
 
 export const FacebookIcon = styled(FacebookSVG)`
