@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/huddle-landing-page-with-alternating-feature-blocks/static/css/main.d668aa46.css",
+    "main.js": "/huddle-landing-page-with-alternating-feature-blocks/static/js/main.f81ab935.js",
+    "static/media/background-desktop.png": "/huddle-landing-page-with-alternating-feature-blocks/static/media/background-desktop.2883821767df42b219de.png",
+    "static/media/twitter-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/twitter-icon.42265d1edf799276e42c4fc650f55c32.svg",
+    "static/media/flowing-conversations-illustr.png": "/huddle-landing-page-with-alternating-feature-blocks/static/media/flowing-conversations-illustr.016c2f6861aff83481ff.png",
+    "static/media/facebook-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/facebook-icon.29d255eea3b50a7edb214aa29adb8f48.svg",
+    "static/media/background-mobile.png": "/huddle-landing-page-with-alternating-feature-blocks/static/media/background-mobile.955a6b4f78d02970fdf2.png",
+    "static/media/your-users-illustr.png": "/huddle-landing-page-with-alternating-feature-blocks/static/media/your-users-illustr.4d078b1854336f8d1627.png",
+    "static/media/grow-together-illustr.png": "/huddle-landing-page-with-alternating-feature-blocks/static/media/grow-together-illustr.e0c3eeca6fb090f3b587.png",
+    "static/media/instagram-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/instagram-icon.5e972a8e327c64b3c116b9a599d8127d.svg",
+    "static/media/hero-illustration.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/hero-illustration.0037b243596a425328ffee020f2fcdb2.svg",
+    "index.html": "/huddle-landing-page-with-alternating-feature-blocks/index.html",
+    "static/media/phone-in-talk-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/phone-in-talk-icon.f96a9721b27828dbbdbae381c6fb79b7.svg",
+    "static/media/location-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/location-icon.548b3b2c3139a12f3b5ebd2efe158cd6.svg",
+    "static/media/email-icon.svg": "/huddle-landing-page-with-alternating-feature-blocks/static/media/email-icon.a8ff3e3b394d45ed250701e5142983a7.svg",
+    "main.d668aa46.css.map": "/huddle-landing-page-with-alternating-feature-blocks/static/css/main.d668aa46.css.map",
+    "main.f81ab935.js.map": "/huddle-landing-page-with-alternating-feature-blocks/static/js/main.f81ab935.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d668aa46.css",
+    "static/js/main.f81ab935.js"
+  ]
+}
